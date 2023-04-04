@@ -1,16 +1,8 @@
 # Отчёт для Considine-Lockman.
-Mrs. Dennis Schulist <Karley_Dach@jasper.info> 20.03.2023 20:26
+Mrs. Dennis Schulist <Karley_Dach@jasper.info> 04.04.2023 20:03
 Всего задач: 20
 
-## Актуальные задачи (6):
-- totam quia dolorem et illum repellat voluptas ...
-- ad illo quis voluptatem temporibus
-- a eos eaque nihil et exercitationem incidunt d...
-- autem temporibus harum quisquam in culpa
-- aut aut ea corporis
-- ipsa dolores vel facilis ut
-
-## Завершённые задачи (14):
+## Актуальные задачи (14):
 - explicabo enim cumque porro aperiam occaecati ...
 - sed ab consequatur
 - non sunt delectus illo nulla tenetur enim omni...
@@ -25,3 +17,11 @@ Mrs. Dennis Schulist <Karley_Dach@jasper.info> 20.03.2023 20:26
 - quia modi consequatur vero fugiat
 - corporis ducimus ea perspiciatis iste
 - dolorem laboriosam vel voluptas et aliquam qua...
+
+## Завершённые задачи (6):
+- totam quia dolorem et illum repellat voluptas ...
+- ad illo quis voluptatem temporibus
+- a eos eaque nihil et exercitationem incidunt d...
+- autem temporibus harum quisquam in culpa
+- aut aut ea corporis
+- ipsa dolores vel facilis ut

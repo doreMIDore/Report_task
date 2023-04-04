@@ -1,8 +1,18 @@
 # Отчёт для Hoeger LLC.
-Clementina DuBuque <Rey.Padberg@karina.biz> 20.03.2023 20:26
+Clementina DuBuque <Rey.Padberg@karina.biz> 04.04.2023 20:03
 Всего задач: 20
 
-## Актуальные задачи (12):
+## Актуальные задачи (8):
+- ut cupiditate sequi aliquam fuga maiores
+- molestias modi perferendis perspiciatis
+- voluptates dignissimos sed doloribus animi qua...
+- explicabo odio est et
+- consequuntur animi possimus
+- ut quas possimus exercitationem sint voluptate...
+- sed ut vero sit molestiae
+- ipsam aperiam voluptates qui
+
+## Завершённые задачи (12):
 - inventore saepe cumque et aut illum enim
 - omnis nulla eum aliquam distinctio
 - vel non beatae est
@@ -15,13 +25,3 @@ Clementina DuBuque <Rey.Padberg@karina.biz> 20.03.2023 20:26
 - dignissimos quo nobis earum saepe
 - quis eius est sint explicabo
 - numquam repellendus a magnam
-
-## Завершённые задачи (8):
-- ut cupiditate sequi aliquam fuga maiores
-- molestias modi perferendis perspiciatis
-- voluptates dignissimos sed doloribus animi qua...
-- explicabo odio est et
-- consequuntur animi possimus
-- ut quas possimus exercitationem sint voluptate...
-- sed ut vero sit molestiae
-- ipsam aperiam voluptates qui
