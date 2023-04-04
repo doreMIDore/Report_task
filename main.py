@@ -42,26 +42,18 @@ def createReport():
     except KeyError:
         print(traceback.format_exc())
 
-    for user in users:
+    for user in users:                                                                  #RenameFiles
         newFileName = renameFiles(fr"{os.getcwd()}\tasks\{user['username']}.txt",
                                   fr"{os.getcwd()}\tasks\old_{user['username']}",
                                   addingFormattedTimeToOld=False
                                   )
-        completedTaskDict = dict()
-        actualTaskDict = dict()
-        countOfTask = {"count": 0}
-        idUser = user['id']
-        print(user['username'])
-        for number, task in enumerate(todos):
-            fillDict(completedTaskDict, actualTaskDict, countOfTask, idUser, task, number)
 
         try:
-            with open(fr"{os.getcwd()}\tasks\{user['username']}.txt", "w+") as newFile:
+            with open(fr"{os.getcwd()}\tasks\{user['username']}.txt", "w+") as newFile:  # Create report file
                 try:
                     # if user['username'] == "Antonette":
                     #    raise OSError("Генерация ошибки OSError")
-                    writeFile(newFile, user, formattedTimeForReport, countOfTask, completedTaskDict,
-                              actualTaskDict)
+                    writeFile(newFile, user, formattedTimeForReport)
 
                 except OSError:
                     newFile.close()
@@ -78,18 +70,6 @@ def createReport():
                             fr"{os.getcwd()}\tasks\{user['username']}",
                             None
                             )
-
-
-def fillDict(completedTaskDict, actualTaskDict, countOfTask, idUser, task, number):
-    try:
-        if idUser == task['userId']:
-            countOfTask['count'] += 1
-            if task['completed']:
-                completedTaskDict[number] = task['title']
-            else:
-                actualTaskDict[number] = task['title']
-    except KeyError:
-        print(f"Задача {task['id']} не закреплена")
 
 
 def renameFiles(oldFileName, newFileName, addingFormattedTimeToOld, formatFile=".txt"):
@@ -113,20 +93,20 @@ def renameFiles(oldFileName, newFileName, addingFormattedTimeToOld, formatFile="
         print("Переименовать файлы не удалось")
 
 
-def writeFile(newFile, user, formatTimeForReport, countOfTask, actualTaskDict, completedTaskDict):
-    header = headerText(user, formatTimeForReport, countOfTask, actualTaskDict)
-    todos = todosText(actualTaskDict)
-    textOfReport = header + todos + f"\n## Завершённые задачи ({len(completedTaskDict)}):\n"
-    todos = todosText(completedTaskDict)
+def writeFile(newFile, user, formatTimeForReport):
+    header = headerText(user, formatTimeForReport)
+    todos = todosText(user['actualTask'])
+    textOfReport = header + todos + f"\n## Завершённые задачи ({len(user['completedTask'])}):\n"
+    todos = todosText(user['completedTask'])
     textOfReport += todos
     newFile.write(textOfReport)
 
 
-def headerText(user, formatTimeForReport, countOfTask, actualTaskDict):
+def headerText(user, formatTimeForReport):
     header = (f"# Отчёт для {user['company']['name']}.\n"  # Отчёт для Deckow-Crist. 
               f"{user['name']} <{user['email']}> {formatTimeForReport}\n"  # Ervin Howell <Shanna@melissa.tv>  23.09.2020 15:25      
-              f"Всего задач: {countOfTask['count']}\n\n"  # Всего задач: 4
-              f"## Актуальные задачи ({len(actualTaskDict)}):\n")
+              f"Всего задач: {len(user['actualTask']) + len(user['completedTask'])}\n\n"  # Всего задач: 4
+              f"## Актуальные задачи ({len(user['actualTask'])}):\n")
     return header
 
 
