@@ -1,18 +1,8 @@
 # Отчёт для Yost and Sons.
-Glenna Reichert <Chaim_McDermott@dana.io> 20.03.2023 20:26
+Glenna Reichert <Chaim_McDermott@dana.io> 04.04.2023 20:03
 Всего задач: 20
 
-## Актуальные задачи (8):
-- ex hic consequuntur earum omnis alias ut occae...
-- omnis laboriosam molestias animi sunt dolore
-- ea odio perferendis officiis
-- fugiat aut voluptatibus corrupti deleniti veli...
-- laudantium eius officia perferendis provident ...
-- nesciunt itaque commodi tempore
-- omnis consequuntur cupiditate impedit itaque i...
-- debitis nisi et dolorem repellat et
-
-## Завершённые задачи (12):
+## Актуальные задачи (12):
 - natus corrupti maxime laudantium et voluptatem...
 - reprehenderit quos aut aut consequatur est sed
 - fugiat perferendis sed aut quidem
@@ -25,3 +15,13 @@ Glenna Reichert <Chaim_McDermott@dana.io> 20.03.2023 20:26
 - similique aut quo
 - magni soluta corrupti ut maiores rem quidem
 - et placeat temporibus voluptas est tempora quo...
+
+## Завершённые задачи (8):
+- ex hic consequuntur earum omnis alias ut occae...
+- omnis laboriosam molestias animi sunt dolore
+- ea odio perferendis officiis
+- fugiat aut voluptatibus corrupti deleniti veli...
+- laudantium eius officia perferendis provident ...
+- nesciunt itaque commodi tempore
+- omnis consequuntur cupiditate impedit itaque i...
+- debitis nisi et dolorem repellat et

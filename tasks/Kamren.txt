@@ -1,8 +1,18 @@
 # Отчёт для Keebler LLC.
-Chelsey Dietrich <Lucio_Hettinger@annie.ca> 20.03.2023 20:26
+Chelsey Dietrich <Lucio_Hettinger@annie.ca> 04.04.2023 20:03
 Всего задач: 20
 
-## Актуальные задачи (12):
+## Актуальные задачи (8):
+- voluptates eum voluptas et dicta
+- sunt veritatis ut voluptate
+- vitae aut excepturi laboriosam sint aliquam et...
+- facilis modi saepe mollitia
+- nobis suscipit ducimus enim asperiores volupta...
+- dolorum laboriosam eos qui iure aliquam
+- neque voluptates ratione
+- excepturi a et neque qui expedita vel voluptat...
+
+## Завершённые задачи (12):
 - suscipit qui totam
 - quidem at rerum quis ex aut sit quam
 - et quia ad iste a
@@ -15,13 +25,3 @@ Chelsey Dietrich <Lucio_Hettinger@annie.ca> 20.03.2023 20:26
 - odio iure consequatur molestiae quibusdam nece...
 - vel nihil et molestiae iusto assumenda nemo qu...
 - debitis accusantium ut quo facilis nihil quis ...
-
-## Завершённые задачи (8):
-- voluptates eum voluptas et dicta
-- sunt veritatis ut voluptate
-- vitae aut excepturi laboriosam sint aliquam et...
-- facilis modi saepe mollitia
-- nobis suscipit ducimus enim asperiores volupta...
-- dolorum laboriosam eos qui iure aliquam
-- neque voluptates ratione
-- excepturi a et neque qui expedita vel voluptat...

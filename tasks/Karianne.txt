@@ -1,16 +1,8 @@
 # Отчёт для Robel-Corkery.
-Patricia Lebsack <Julianne.OConner@kory.org> 20.03.2023 20:26
+Patricia Lebsack <Julianne.OConner@kory.org> 04.04.2023 20:03
 Всего задач: 20
 
-## Актуальные задачи (6):
-- odit optio omnis qui sunt
-- doloremque aut dolores quidem fuga qui nulla
-- sint amet quia totam corporis qui exercitation...
-- sequi dolorem sed
-- eum ipsa maxime ut
-- tempore molestias dolores rerum sequi voluptat...
-
-## Завершённые задачи (14):
+## Актуальные задачи (14):
 - et placeat et tempore aspernatur sint numquam
 - voluptas consequatur qui ut quia magnam nemo e...
 - fugiat pariatur ratione ut asperiores necessit...
@@ -25,3 +17,11 @@ Patricia Lebsack <Julianne.OConner@kory.org> 20.03.2023 20:26
 - occaecati adipisci est possimus totam
 - maiores aut nesciunt delectus exercitationem v...
 - reiciendis est magnam amet nemo iste recusanda...
+
+## Завершённые задачи (6):
+- odit optio omnis qui sunt
+- doloremque aut dolores quidem fuga qui nulla
+- sint amet quia totam corporis qui exercitation...
+- sequi dolorem sed
+- eum ipsa maxime ut
+- tempore molestias dolores rerum sequi voluptat...
