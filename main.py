@@ -28,19 +28,6 @@ def createReport():
     # TODO for in users to create empty 2 list
     # TODO for in todos to fill list completed\ornot
 
-    for user in users:
-        user['completedTask'] = {}
-        user['actualTask'] = {}
-
-    try:
-        for task in todos:
-            userid = task['userId'] - 1
-            if task['completed']:
-                users[userid]['completedTask'].update({task['id']: task['title']})
-            if not task['completed']:
-                users[userid]['actualTask'].update({task['id']: task['title']})
-    except KeyError:
-        print(traceback.format_exc())
 
     for user in users:                                                                  #RenameFiles
         newFileName = renameFiles(fr"{os.getcwd()}\tasks\{user['username']}.txt",
